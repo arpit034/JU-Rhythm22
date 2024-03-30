@@ -158,36 +158,36 @@ strong {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-  border: 0.125rem solid #2e86c1;
+  border: 0.125rem solid #E8a935;
   border-radius: 0.25rem;
-  background-color: #2e86c1;
+  background-color: #E8a935;
   color: #fff;
-  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  font: 700 0.90rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
   background-color: transparent;
-  color: #2e86c1;
+  color: #E8a935;
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-  border: 0.125rem solid #2e86c1;
+  border: 0.125rem solid #E8a935;
   border-radius: 0.25rem;
-  background-color: #2e86c1;
+  background-color: #E8a935;
   color: #fff;
-  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  font: 700 1.5rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #2e86c1;
+  color: #E8a935;
   text-decoration: none;
 }
 
@@ -677,7 +677,7 @@ input[type="checkbox"] {
 .navbar-custom {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-  background-color: #113448;
+  background-color: #20454b;
   font-family: "Nasalization", sans-serif;
   box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
   font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
@@ -714,16 +714,18 @@ input[type="checkbox"] {
   margin-bottom: 0.5rem;
 }
 
-.navbar-custom .nav-item .nav-link {
+.navbar-custom .nav-item .nav-link1 {
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   color: #fff;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
-.navbar-custom .nav-item .nav-link:hover,
-.navbar-custom .nav-item .nav-link.active {
-  color: #2e86c1;
+.navbar-custom .nav-item .nav-link1:hover{
+  color:#E8a935;
+}
+.navbar-custom .nav-item .nav-link1.active {
+  color:#E8a935;
 }
 
 /* Dropdown Menu */
@@ -752,7 +754,7 @@ input[type="checkbox"] {
   margin-top: 0;
   border: none;
   border-radius: 0.25rem;
-  background-color: #113448;
+  background-color: #E8a935;
 }
 
 .navbar-custom .dropdown-item {
@@ -761,7 +763,7 @@ input[type="checkbox"] {
 }
 
 .navbar-custom .dropdown-item:hover {
-  background-color: #113448;
+  background-color: #E8a935;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -769,7 +771,7 @@ input[type="checkbox"] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-  color: #2e86c1;
+  color: #E8a935;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -821,16 +823,17 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("../images/bg22.png") center center no-repeat;
+  background: 
+    url("../images/bg\ up\ .png") center center no-repeat;
   background-attachment: fixed;
+ 
   background-size: cover;
   height: 100%;
 }
 @media screen and (max-width: 1000px) {
   .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-      url("../images/bg22.png") center center no-repeat;
+    background: 
+      url("../images/bg\ up\ .png") center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     /* height: 50%; */
@@ -878,7 +881,7 @@ input[type="checkbox"] {
 .basic-1 {
   padding-top: 6.5rem;
   padding-bottom: 3rem;
-  background:#030d1a;
+  background:#001A36;
 }
 
 .basic-1 .text-container {
@@ -1150,7 +1153,7 @@ input[type="checkbox"] {
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-  color: #2e86c1;
+  color: #E8a935;
 }
 
 .tabs .nav-link .fas {
@@ -1378,13 +1381,13 @@ input[type="checkbox"] {
 .filter {
   padding-top: 6.5rem;
   padding-bottom: 7rem;
-  background: url(../images/bg12.png);
+  background: url(../images/bg\ up\ .png);
   background-size: cover;
   background-attachment: fixed;
 }
 
 .filter .section-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 4rem;
 }
 
 .filter h2,
@@ -1393,9 +1396,10 @@ input[type="checkbox"] {
 }
 
 .filter h2 {
-  margin-bottom: 3.25rem;
+  margin-bottom: 5.25rem;
   color: #ffff;
-  font-size: 50px;
+  font-size: 90px;
+
 }
 
 .filter .button-group {
@@ -1404,29 +1408,41 @@ input[type="checkbox"] {
 
 .filter .button-group a {
   display: inline-block;
-  margin-right: 0.1875rem;
+  margin-right: 1rem;
   margin-bottom: 0.5rem;
-  margin-left: 0.1875rem;
-  padding: 10px;
+  margin-left: 1rem;
+  padding: 25px;
   border-radius: 0.25rem;
-  background-color: #f1f4f7;
-  color: #000;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8a935;
+  color: #fff;
+ font: 700 1.5rem/0 "Montserrat","sans-serif";
+  text-decoration: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease ;
+ 
 }
 
+.filter .button-group a,
 .filter .button-group a:hover {
-  background-color: #00a2d3;
-  color: #fff;
+ 
+ background-color:transparent;
+ border-radius: 0.25rem;
+ border: 0.125rem solid  #E8a935;
+ color: #E8a935;
+ 
+transition: all 0.2s ease;
+  text-decoration: none;
+ 
+
 }
+
 
 .filter .button-group a.button.is-checked {
-  background-color: #00a2d3;
-  color: #fff;
+background-color: #E8a935;
+color: black;
+
 }
+
 
 .filter .grid {
   margin-top: 1.25rem;
@@ -1851,6 +1867,18 @@ a:hover.back-to-top {
 .ex-header h1 {
   color: #fff;
 }
+#video{
+   position:'absolute';
+  width: '100%';
+  height: '100vh'; 
+  object-fit: fill;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+ 
+}
 
 .ex-basic-1 {
   padding-top: 2rem;
@@ -1937,13 +1965,13 @@ a:hover.back-to-top {
 
   .navbar-custom .nav-item .nav-link:hover,
   .navbar-custom .nav-item .nav-link.active {
-    color: #2e86c1;
+    color: #001a36;
   }
 
   .navbar-custom.top-nav-collapse {
     padding: 0.375rem 1.5rem 0.375rem 2rem;
     box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-    background: #030d1a;
+    background: #001A36;
   }
 
   .navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1956,7 +1984,7 @@ a:hover.back-to-top {
 
   .navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
   .navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-    color: #2e86c1;
+    color: #E8a935;
   }
 
   .navbar-custom .dropdown-menu {
@@ -2093,6 +2121,10 @@ a:hover.back-to-top {
   .navbar-custom .fa-stack {
     margin-left: 0.375rem;
     font-size: 0.8125rem;
+  }
+  
+  .sty{
+    color: #000;
   }
 
   .navbar-custom .fa-stack .hexagon {
@@ -2271,8 +2303,8 @@ a:hover.back-to-top {
   /* Contact */
   .form-2 {
     padding-top: 6.875rem;
-    background: linear-gradient(160deg, #030d1a, #a7004679, #4b00acc0, #1a1603);
-    background-color: #000;
+    background: linear-gradient(315deg, #00bfb2 0%, #028090 74%);
+    background-color: #00bfb2;
   }
 
   .form-2 .text-container {

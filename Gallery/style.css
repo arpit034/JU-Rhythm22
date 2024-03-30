@@ -10,9 +10,10 @@
 .gallery-section{
   width: 100%;
   padding: 60px 0;
-  background: url(../images/bg13.jpg);
+  background: url(../images/bg\ up\ .png);
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 .inner-width{
@@ -59,7 +60,7 @@
 }
 
 .gallery-section .image:hover img{
-  transform: scale(1.4) rotate(15deg);
+  transform: scale(1.2)
 }
 
 @media screen and (max-width:960px) {
