@@ -824,7 +824,7 @@ input[type="checkbox"] {
 /*********************/
 .header {
   background: 
-    url("../images/bg\ up\ .png") center center no-repeat;
+    url("../images/bg-up-_1_.webp") center center no-repeat;
   background-attachment: fixed;
  
   background-size: cover;
@@ -833,7 +833,7 @@ input[type="checkbox"] {
 @media screen and (max-width: 1000px) {
   .header {
     background: 
-      url("../images/bg\ up\ .png") center center no-repeat;
+      url("../images/bg-up-_1_.webp") center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     /* height: 50%; */
@@ -1381,7 +1381,7 @@ input[type="checkbox"] {
 .filter {
   padding-top: 6.5rem;
   padding-bottom: 7rem;
-  background: url(../images/bg\ up\ .png);
+  background: url(../images/bg-up-_1_.webp);
   background-size: cover;
   background-attachment: fixed;
 }
